@@ -1,0 +1,79 @@
+body{
+	font-family: Arial;
+	padding-top: 50px;
+
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.container1{
+	margin: 10px;
+	padding: 16px;
+	max-width: 450px;
+	margin: auto;
+	background: linear-gradient(rgb(84, 177, 134),#000033);
+	background: -webkit-linear-gradient(rgba(84, 177, 134,1),#000033);
+	background: -moz-linear-gradient(rgba(84, 177, 134, 1),#000033);
+	background: -o-linear-gradient(rgba(84, 177, 134, 1),#000033);
+	color: #fff;
+
+}
+
+h1, p{
+	text-align: center;
+}
+.input1[type=text],.input1[type=password]{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	font-size: 17px;
+	color: #000;
+}
+.button1{
+	background: #4caf50;
+	color: #fff;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+	font-size: 17px;
+
+}
+.button1:hover{
+	opacity: 1;
+
+
+}
+
+.forget a{
+	text-decoration: none;
+	float: right;
+	color: white;
+
+
+}
+.forget a:hover{
+	color: #a2ded0;
+	cursor: pointer;
+
+}
+
+label a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fcd670;
+
+}
+
+label a:hover{
+	color: #be90d4;
+	cursor: pointer;
+}

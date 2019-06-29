@@ -1,0 +1,16 @@
+@font-face {
+font-family: "swift";
+src: url("fonts/Swift-Regular.ttf");
+}
+.weblogo{
+	font-family:swift;
+	font-size:40px;
+	margin:0;
+	color:black;
+}
+
+#logo-container{
+	width:100px;
+	height: 30px;
+	background-color:aqua;
+}
